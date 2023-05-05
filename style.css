@@ -1,0 +1,18 @@
+.donuts-desenho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.donuts-desenho img {
+    align-self: center; /* ou "flex-start" ou "flex-end" */
+    max-width: 100%;
+    height: auto;
+}
+
+.conteudo {
+    height: 70vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
